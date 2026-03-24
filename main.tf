@@ -4,6 +4,6 @@ resource "aws_instance" "server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "second_practice_ec2_Terraform-Server"
+    Name = "Auto-test-server-with-Terraform-Server"
   }
 }
