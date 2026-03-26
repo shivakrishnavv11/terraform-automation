@@ -4,6 +4,6 @@ resource "aws_instance" "server" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "Auto-2-Server"
+    Name = "shivahero_2-Server"
   }
 }
